@@ -1,17 +1,13 @@
 # MSE
 
-A weakly-supervised framework for
-single-frame infrared small target detection (IRSTD) trained from **point
-annotations only**.
-
 > **Availability.** This repository currently ships only the **inference and
 > evaluation code** and **checkpoint** so that the reported numbers can be
 > verified. The **training code will be released after the paper is accepted**.
 
 This repository contains the inference and evaluation code together with the
 model definitions. The training loop is intentionally not included, so the three
-modules that constitute the MSE contribution (CPR, PDWL, SGM) are **not** shipped
-here — only the CPR point refiner is kept because the localisation-error study
+modules that constitute the MSE contribution are **not** shipped
+here — only the CPR is kept because the localisation-error study
 depends on it. 
 
 ---
@@ -41,11 +37,6 @@ python test_model.py
 ```
 
 ## CPR localisation-error study
-
-The localisation error reported for CPR is measured on synthetic patches where
-the target centre is known analytically — real annotated masks give no
-sub-pixel reference point. The script is self-contained and imports the released
-refiner, so the numbers are reproducible from the public code:
 
 ```bash
 python tools/make_cpr_simulation.py --n 200
