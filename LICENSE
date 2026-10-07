@@ -1,0 +1,20 @@
+PLACEHOLDER — no licence has been chosen yet.
+
+This file intentionally does NOT contain a licence. Delete it and replace it
+with the real licence text once you have decided.
+
+Common choices for research code:
+
+  * MIT           - shortest permissive licence; allows reuse in closed products.
+                    Widely used for academic code releases.
+  * Apache-2.0    - permissive, like MIT, but also grants an explicit patent
+                    licence and requires stating changes. A good fit here because
+                    parts of this repository are already Apache-2.0
+                    (see THIRD_PARTY_NOTICES.md), which keeps everything
+                    under one licence family.
+  * BSD-3-Clause  - permissive, similar to MIT with a no-endorsement clause.
+
+Before you publish, also check THIRD_PARTY_NOTICES.md: the eight comparison-method
+directories under model/ each come from a different upstream project, and some of
+them may not permit redistribution. Confirm their terms, or remove those
+directories and link to the original repositories in the README instead.

@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ------------------------------------------------------------------
+# Project specific
+# ------------------------------------------------------------------
+# Datasets and generated pseudo-labels must never be committed
+dataset/
+data/
+
+# Training workspace (pseudo-labels, logs)
+work_dirs/
+your_own_dirs/
+
+# Inference outputs
+pre_results/
+saliency_maps/
+
+# Scratch files written by the data pipeline
+components/.refine_time.txt
