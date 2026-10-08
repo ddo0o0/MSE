@@ -18,11 +18,11 @@ depends on it.
 
 Download the pre-trained checkpoints from:
 
-- **Quark netdisk:** <https://pan.quark.cn/s/381b1a29a4bb>
-- **Extraction code:** `7JXr`
+- **Quark netdisk:** <https://pan.quark.cn/s/c6d44042b23f>
+- **Extraction code:** `VKr2
 
 Each checkpoint is named
-`{backbone}__{dataset}__{annotation}__{timestamp}_best.pth.tar` and corresponds
+`{backbone}__{dataset}__{annotation}_best.pth.tar` and corresponds
 to our **Ours (MSE)** method trained on one backbone / dataset / annotation
 combination.
 Point `test_model_path` in `test_model.py` at the downloaded file.
